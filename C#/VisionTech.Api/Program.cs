@@ -31,7 +31,7 @@ app.UseHttpsRedirection();
 
 app.MapControllers();
 app.MapHub<ChatHub>("/chathub");
-app.MapHub<ProductHub>("/producthub");
+app.MapHub<ProductHub>("/products");
 
 // Ensure the database is created and seeded.
 using (var scope = app.Services.CreateScope())
