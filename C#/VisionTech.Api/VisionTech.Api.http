@@ -1,0 +1,6 @@
+@VisionTech.Api_HostAddress = http://localhost:5189
+
+GET {{VisionTech.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
